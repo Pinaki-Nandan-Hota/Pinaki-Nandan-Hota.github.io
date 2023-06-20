@@ -143,8 +143,8 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
       message: document.getElementById("message").value,
     };
 
-    const serviceID = "service_embce24";
-    const templateID = "template_cci0niw";
+    const serviceID = "service_rtnosr8";
+    const templateID = "template_s8sl46a";
 
     emailjs
       .send(serviceID, templateID, params)
@@ -171,7 +171,7 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
 });
 
 /*==================== GITHUB CALENDAR ====================*/
-GitHubCalendar(".calendar", "sanajitjana", {
+GitHubCalendar(".calendar", "pinaki1010", {
   responsive: true,
   global_stats: false,
   tooltips: true,
