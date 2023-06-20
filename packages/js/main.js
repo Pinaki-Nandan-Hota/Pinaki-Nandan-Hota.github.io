@@ -142,7 +142,13 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
 
+   btn.value = 'Sending...';
+
+  
     const serviceID = "service_rtnosr8";
     const templateID = "template_t1ueplk";
 
