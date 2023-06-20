@@ -144,7 +144,7 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
     };
 
     const serviceID = "service_rtnosr8";
-    const templateID = "template_s8sl46a";
+    const templateID = "template_eh8dxjj";
 
     emailjs
       .send(serviceID, templateID, params)
